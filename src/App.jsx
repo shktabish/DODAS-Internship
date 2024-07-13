@@ -11,8 +11,8 @@ export default function App() {
       <Hero />
       <div className="relative flex mb-20 overflow-hidden">
         <div className="flex gap-4 animate-marquee whitespace-nowrap">
-          <img src="./marquee1st.svg" alt="images list" className="grayscale" />
-          <img src="./marquee1st.svg" alt="images list" className="grayscale" />
+          <img src="./marquee1st.svg" alt="images list" className="grayscale max-sm:scale-150" />
+          <img src="./marquee1st.svg" alt="images list" className="grayscale max-sm:scale-150" />
         </div>
       </div>
       <Feature />

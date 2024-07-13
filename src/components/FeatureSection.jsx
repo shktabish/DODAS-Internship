@@ -19,7 +19,7 @@ const FeatureSection = ({ id, title, description, animation, inverse, width, tex
               {title}
             </div>
             <div className="absolute -top-72 max-lg:-top-36 max-sm:-top-24 -left-10 font-inter font-black italic text-stroke-3 max-sm:text-[100px] max-lg:text-[150px] text-[300px] -z-10">{id}</div>
-            <div className="font-Nico max-lg:text-base text-xl text-[#343434]">{description}</div>
+            <div className="font-Nico max-lg:text-base text-xl text-[#606060]">{description}</div>
             {id !== 1 && 
               <div className="flex items-center gap-2 max-lg:mt-4 mt-12" >
                 <div className="font-Sofia text-xl" >More Info</div>

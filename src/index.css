@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+    @apply text-white
+}
+
+@font-face {
+  font-family: "Nico Moji";
+  src: url("./NicoMoji-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Khyay";
+  src: url("./Khyay-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Sofia";
+  src: url("./SofiaProRegularAz.otf");
+}
+
+.text-stroke-3 {
+  -webkit-text-stroke: 6px #777;
+  -webkit-text-fill-color: transparent;
+}

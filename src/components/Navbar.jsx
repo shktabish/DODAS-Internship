@@ -2,31 +2,19 @@ import { useState } from "react"
 
 const Navbar = () => {
     const [activeLink, setActiveLink] = useState("GET API ACCESS")
-
-    const handleLinkClick = (e) => {
-        setActiveLink(e.target.innerText)
-    }
+    const links = ["GET API ACCESS", "Dodas", "Join Community"]
 
   return (
-    <div className="flex justify-center items-center gap-14 pt-10 font-Michroma h-12">
-        <div 
-            onClick={handleLinkClick} 
-            className={`${activeLink === "GET API ACCESS" ? "text-white border-b-2 border-white" : "text-[#777777]"} transition duration-300 ease-in-out cursor-pointer `}
-        >
-            GET API ACCESS
-        </div>
-        <div 
-            onClick={handleLinkClick} 
-            className={`${activeLink === "Dodas" ? "text-white border-b-2 border-white" : "text-[#777777]"} transition duration-300 ease-in-out cursor-pointer `}
-        >
-            Dodas
-        </div>
-        <div 
-            onClick={handleLinkClick} 
-            className={`${activeLink === "Join Community" ? "text-white border-b-2 border-white" : "text-[#777777]"} transition duration-300 ease-in-out cursor-pointer `}
-        >   
-            Join Community
-        </div>
+    <div className="flex justify-center items-center max-sm:gap-7 gap-14 px-2 pt-10 font-Michroma h-12">
+        {links.map((link, index) => (
+            <div 
+                key={index}
+                onClick={() => setActiveLink(link)} 
+                className={`${activeLink === link ? "text-white border-b-2 border-white" : "text-[#777777]"} transition duration-300 ease-in-out cursor-pointer max-sm:text-xs text-center `}
+            >
+                {link}
+            </div>
+        ))}
     </div>
   )
 }

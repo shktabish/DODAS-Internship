@@ -1,5 +1,6 @@
 import Navbar from './Navbar'
 import { FaArrowRightLong } from "react-icons/fa6"
+import { Link } from 'react-router-dom'
 
 const Hero = () => {
   return (
@@ -16,12 +17,12 @@ const Hero = () => {
                 <div className="max-sm:w-[80%] max-lg:w-1/2 max-sm:text-lg max-lg:text-xl text-2xl font-Nico text-[#777] max-w-[780px]">
                     Resolvent: Where scarcity meets solution, empowering collectors with access to unique digital treasures.
                 </div>
-                <div className='bg-white max-lg:px-4 px-6 py-4 max-sm:w-[200px] max-lg:w-[300px] w-[420px] rounded-xl flex justify-center items-center gap-3 cursor-pointer'>
+                <Link to={"https://testnet.dodas.xyz"} className='bg-white max-lg:px-4 px-6 py-4 max-sm:w-[200px] max-lg:w-[300px] w-[420px] rounded-xl flex justify-center items-center gap-3 cursor-pointer'>
                     <div className='text-xl font-Sofia font-semibold text-black'>
                         Try Testnet
                     </div>
                     <FaArrowRightLong className='text-black text-xl' />
-                </div>
+                </Link>
             </div>
             <div className='h-screen overflow-hidden flex justify-center items-center' >
                 <img src="https://s3-alpha-sig.figma.com/img/8ccf/c811/dca4bcf5b2b4d5747fe8f5163b062748?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QfEGct0O-jLUDdsU8V7A5dy9NJ4OEojYEHVOjT1Gk3v8YObWZ0Br5mMpy-icoTeKVWIvaThhKuSzdNL5LUb7~iJSn~h7ej11fQn4pCO6tTQmg5owEM8e1a29SixcOSvt-rXgwJuJ0NrAK-6h75gT4oFSpmnuiPkGxkCeDKjNwyl757nm3JzM6BvnhOLOelJcszrPEQ9b9o61IAO-chGSETJIabWnCY~A7XbeS2Pju1okbAOhIth2DyySS3eDAPXX53lSBYfFBPFJy6bndcuV5j0sGQs4LIvd2TVVbQzBTSiHqVUvQHkSo1FcoWEmuFxZ-0Ta78K-mZ5g9cDBHL0NRg__" alt="gif" 

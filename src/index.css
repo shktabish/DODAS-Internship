@@ -14,17 +14,17 @@ html {
 
 @font-face {
   font-family: "Nico Moji";
-  src: url("./NicoMoji-Regular.ttf");
+  src: url("./fonts/NicoMoji-Regular.ttf");
 }
 
 @font-face {
   font-family: "Khyay";
-  src: url("./Khyay-Regular.ttf");
+  src: url("./fonts/Khyay-Regular.ttf");
 }
 
 @font-face {
   font-family: "Sofia";
-  src: url("./SofiaProRegularAz.otf");
+  src: url("./fonts/SofiaProRegularAz.otf");
 }
 
 .text-stroke-3 {

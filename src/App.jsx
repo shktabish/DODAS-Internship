@@ -3,6 +3,7 @@ import Feature from "./components/Feature"
 import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import Legacy from "./components/Legacy"
+import Technology from "./components/Technology"
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         </div>
       </div>
       <Feature />
+      <Technology />
       <Legacy />
       <DiscoverCard />
       <Footer />

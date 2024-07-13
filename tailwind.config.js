@@ -17,7 +17,7 @@ export default {
         'Sofia': ['Sofia', 'sans-serif'],
       },
       backgroundImage: {
-        'discover-card-pattern': "url('./discover.svg')"
+        'discover-card-pattern': "url('./src/assests/discover.svg')"
       },
       animation: {
         marquee: 'marquee 20s linear infinite',

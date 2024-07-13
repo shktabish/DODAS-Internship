@@ -3,7 +3,7 @@ import { FaArrowRightLong } from "react-icons/fa6"
 
 const Hero = () => {
   return (
-    <div className='relative z-50 overflow-x-hidden' >
+    <div className='relative z-50 overflow-hidden' >
         <Navbar />
         <div className='flex items-center max-sm:ml-8 ml-16 min-h-[calc(100vh-100px)]'>
             <div className='flex flex-col flex-wrap gap-6 mb-16 relative z-20'>

@@ -21,8 +21,8 @@ const Legacy = () => {
 
   return (
     <div>
-      <div className="font-Michroma text-4xl uppercase text-center">legacy ecosystem & backers</div>
-      <div className="flex items-center justify-center gap-20 mt-28">
+      <div className="font-Michroma max-sm:text-lg max-md:text-2xl text-4xl uppercase text-center">legacy ecosystem & backers</div>
+      <div className="flex items-center justify-center px-4 flex-wrap max-md:gap-10 gap-20 max-md:mt-16 mt-28">
         {texts.slice(0, 6).map((text, index) => (
           <div 
             key={index} 
@@ -33,7 +33,7 @@ const Legacy = () => {
           </div>
         ))}
       </div>
-      <div className="flex items-center justify-center gap-20 mt-10">
+      <div className="flex items-center justify-center px-4 flex-wrap max-md:gap-10 gap-20 mt-10">
         {texts.slice(6).map((text, index) => (
           <div 
             key={index} 

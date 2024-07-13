@@ -26,7 +26,7 @@ export const sectionData = [
         animation: "./lotties/search.json",
         inverse: false,
         width: "w-1/2",
-        text: "w-5/12",
+        text: "w-5/12 max-lg:w-1/2",
         color: "text-[#3FE891]"
     }
 ]

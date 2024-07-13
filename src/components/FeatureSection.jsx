@@ -13,21 +13,21 @@ const FeatureSection = ({ id, title, description, animation, inverse, width, tex
   }, [])
 
   return (
-    <div className={`flex ${inverse ? "flex-row-reverse" : "" } items-center justify-between px-16 h-[90vh]`}>
-        <div className={`${text} relative z-20`}>
-            <div className={`font-Michroma font-semibold text-4xl ${color} mb-10 tracking-[10px] uppercase`}>
+    <div className={`flex ${inverse ? "flex-row-reverse" : "" } max-lg:flex-col items-center max-lg:justify-center max-lg:gap-4  justify-between max-lg:px-8 px-16 min-h-[90vh]`}>
+        <div className={`${text} max-lg:w-[90%] relative z-20`}>
+            <div className={`font-Michroma font-semibold max-lg:text-2xl text-4xl ${color} mb-10 tracking-[10px] uppercase`}>
               {title}
             </div>
-            <div className="absolute -top-72 -left-10 font-inter font-black italic text-stroke-3 text-[300px] -z-10">{id}</div>
-            <div className="font-Nico text-xl text-[#343434]">{description}</div>
+            <div className="absolute -top-72 max-lg:-top-36 max-sm:-top-24 -left-10 font-inter font-black italic text-stroke-3 max-sm:text-[100px] max-lg:text-[150px] text-[300px] -z-10">{id}</div>
+            <div className="font-Nico max-lg:text-base text-xl text-[#343434]">{description}</div>
             {id !== 1 && 
-              <div className="flex items-center gap-2 mt-12" >
+              <div className="flex items-center gap-2 max-lg:mt-4 mt-12" >
                 <div className="font-Sofia text-xl" >More Info</div>
                 <FaArrowRightLong className="text-white text-xl" />
               </div>
             }
         </div>
-        {animationData && <Lottie animationData={animationData} loop className={`${width}`} />}
+        {animationData && <Lottie animationData={animationData} loop className={`${width} max-sm:w-full`} />}
     </div>
   )
 }

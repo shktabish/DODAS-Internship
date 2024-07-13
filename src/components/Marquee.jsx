@@ -1,9 +1,7 @@
 const Marquee = ({ data }) => {
   const icons = data.map((icon) => (
-    <img src={icon.icon} key={icon.id} />
+    <img src={icon.icon} key={icon.id}  />
   ))
-
-  console.log(data)
 
   return (
     <div className="relative flex my-32 overflow-hidden">

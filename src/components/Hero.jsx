@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom'
 
 const Hero = () => {
   return (
-    <div className='relative z-50 overflow-hidden' >
+    <div className='relative z-50 overflow-hidden'>
         <Navbar />
         <div className='flex items-center max-sm:ml-8 ml-16 min-h-[calc(100vh-100px)]'>
             <div className='flex flex-col flex-wrap gap-6 mb-16 relative z-20'>
                 <div className='text-2xl font-Nico text-[#777]'>
-                    discovery of digital assets
+                    Discovery of Digital Assets
                 </div>
                 <div className='max-sm:text-3xl max-lg:text-5xl max-xl:text-6xl text-8xl font-normal font-Michroma'>
                     LAUNCHING <span className='block mt-5'>SOON</span>

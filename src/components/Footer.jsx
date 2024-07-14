@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 const Footer = () => {
   return (
     <div className="bg-[#141414] min-h-[400px] flex max-md:flex-col justify-between px-10">
@@ -10,11 +12,9 @@ const Footer = () => {
         <div className="flex flex-col justify-end mb-20 gap-10">
             <div className="text-4xl font-Gothic" >SOCIALS</div>
             <div className="flex gap-4 flex-wrap" >
-                <img src="./icons/yt.svg" alt="Youtube Icon" className="md:w-8 lg:w-12 md:h-8 lg:h-12 cursor-pointer" />
-                <img src="./icons/fb.svg" alt="Facebook Icon" className="md:w-8 lg:w-12 md:h-8 lg:h-12 cursor-pointer" />
-                <img src="./icons/x.svg" alt="Twitter Icon" className="md:w-8 lg:w-12 md:h-8 lg:h-12 cursor-pointer" />
-                <img src="./icons/ig.svg" alt="Instagram Icon" className="md:w-8 lg:w-12 md:h-8 lg:h-12 cursor-pointer" />
-                <img src="./icons/li.svg" alt="LinkedIn Icon" className="md:w-8 lg:w-12 md:h-8 lg:h-12 cursor-pointer" />
+                <Link to={"https://www.linkedin.com/company/acknoledger/"} ><img src="./icons/li.svg" alt="LinkedIn Icon" className="w-14 h-14 cursor-pointer" /></Link>
+                <Link to={"https://x.com/dodas_ack"} ><img src="./icons/x.svg" alt="Twitter Icon" className="w-14 h-14 cursor-pointer" /></Link>
+                <Link to={"https://t.me/dodasannouncement"} ><img src="./icons/tele.svg" alt="Telegram Icon" className="w-14 h-14 cursor-pointer" /></Link>
             </div>
         </div>
     </div>

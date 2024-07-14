@@ -3,7 +3,7 @@ import discover from "../assests/discover.svg"
 
 const DiscoverCard = () => {
   return (
-    <div className="flex justify-center items-center py-24">
+    <div className="flex justify-center items-center max-md:py-12 py-24">
         <div className="flex max-lg:flex-col items-center justify-around h-[300px] w-[90%] bg-white rounded-3xl">
             <div className="w-72 max-lg:w-full text-center">
                 <div className="font-Montserrat text-black text-sm" >Expanding Beyond The Metaverse</div>

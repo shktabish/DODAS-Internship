@@ -57,3 +57,18 @@ export const marqueeIcons = [
         icon: "./marquee-icons/6.svg"
     }
 ]
+
+export const newLinks = [
+    {
+        icon: "./marquee-icons/1.png",
+        link: "https://www.altcoinbuzz.io/cryptocurrency-news/top-crypto-news-10-29-cryptopunk-saga/"
+    },
+    {
+        icon: "./marquee-icons/2.png",
+        link: "https://sugermint.com/abhishek-singh-rajpurohit-co-founder-acknoledger/"
+    },
+    {
+        icon: "./marquee-icons/3.png",
+        link: "https://cointelegraph.com/innovation-circle/10-obstacles-to-cross-chain-interoperability-and-how-they-can-be-overcome"
+    }
+]

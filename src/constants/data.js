@@ -31,32 +31,59 @@ export const sectionData = [
     }
 ]
 
-export const marqueeIcons = [
+export const legacyLine1 = [
     {
-        id: 1,
-        icon: "./marquee-icons/1.svg"
+        icon: "./legacy-icons/11.svg",
+        link: "/"
     },
     {
-        id: 2,
-        icon: "./marquee-icons/2.svg"
+        icon: "./legacy-icons/12.svg",
+        link: "https://bitcoinplus.org/"
     },
     {
-        id: 3,
-        icon: "./marquee-icons/3.svg"
+        icon: "./legacy-icons/13.svg",
+        link: "https://solana.com/"
     },
     {
-        id: 4,
-        icon: "./marquee-icons/4.svg"
+        icon: "./legacy-icons/14.svg",
+        link: "https://ethereum.org/en/"
     },
     {
-        id: 5,
-        icon: "./marquee-icons/5.svg"
+        icon: "./legacy-icons/15.svg",
+        link: "https://metamask.io/"
     },
     {
-        id: 6,
-        icon: "./marquee-icons/6.svg"
+        icon: "./legacy-icons/16.svg",
+        link: "https://www.terra.money/"
     }
 ]
+
+export const legacyLine2 = [
+    {
+        icon: "./legacy-icons/12.svg",
+        link: "https://bitcoinplus.org/"
+    },
+    {
+        icon: "./legacy-icons/binance.svg",
+        link: "https://www.binance.com/en-IN"
+    },
+    {
+        icon: "./legacy-icons/16.svg",
+        link: "https://www.terra.money/"
+    },
+    {
+        icon: "./legacy-icons/cova.svg",
+        link: "https://www.covalenthq.com/"
+    },
+    {   
+        icon: "./legacy-icons/binance.svg",
+        link: "https://www.binance.com/en-IN"
+    },
+    {
+        icon: "./legacy-icons/14.svg",
+        link: "https://ethereum.org/en/"
+    }
+] 
 
 export const newLinks = [
     {

@@ -12,7 +12,7 @@ const Navbar = () => {
                     onClick={() => setActiveLink("GET API ACCESS")} 
                     className={`${activeLink === "GET API ACCESS" ? "text-white border-b-2 border-white" : "text-[#777777]"} transition duration-300 ease-in-out cursor-pointer max-sm:text-xs text-center px-4 py-2 hover:text-white`}
                 >
-                    GET API ACCESS
+                    Get API Access
                 </div>
                 <div className="text-white cursor-pointer text-2xl font-semibold text-center">Dodas</div>
                 <Link  

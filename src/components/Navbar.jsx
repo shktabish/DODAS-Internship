@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import HamburgerNavbar from "./HamburgerNavbar";
 
 const Navbar = () => {
-    const [activeLink, setActiveLink] = useState("GET API ACCESS");
+    const [activeLink, setActiveLink] = useState("Dodas");
 
     return (
         <>

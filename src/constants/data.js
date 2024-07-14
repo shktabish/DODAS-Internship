@@ -33,55 +33,55 @@ export const sectionData = [
 
 export const legacyLine1 = [
     {
-        icon: "./legacy-icons/11.svg",
-        link: "/"
+        icon: "./legacy-icons/darenft.png",
+        link: "https://darenft.com/"
     },
     {
-        icon: "./legacy-icons/12.svg",
-        link: "https://bitcoinplus.org/"
+        icon: "./legacy-icons/coinfantasy.png",
+        link: "https://www.coinfantasy.io/"
     },
     {
-        icon: "./legacy-icons/13.svg",
-        link: "https://solana.com/"
+        icon: "./legacy-icons/farcana.png",
+        link: "https://www.farcana.com/"
     },
     {
-        icon: "./legacy-icons/14.svg",
-        link: "https://ethereum.org/en/"
+        icon: "./legacy-icons/rikkeifinance.png",
+        link: "https://rikkei.finance/"
     },
     {
-        icon: "./legacy-icons/15.svg",
-        link: "https://metamask.io/"
+        icon: "./legacy-icons/polycruz.png",
+        link: "https://www.polycruz.io/"
     },
     {
-        icon: "./legacy-icons/16.svg",
-        link: "https://www.terra.money/"
+        icon: "./legacy-icons/nfttech.png",
+        link: "https://www.nfttech.com/"
     }
 ]
 
 export const legacyLine2 = [
     {
-        icon: "./legacy-icons/12.svg",
-        link: "https://bitcoinplus.org/"
+        icon: "./legacy-icons/babylons.png",
+        link: "https://babylons.io/"
     },
     {
-        icon: "./legacy-icons/binance.svg",
-        link: "https://www.binance.com/en-IN"
+        icon: "./legacy-icons/bitcrunch.png",
+        link: "https://bitscrunch.com/"
     },
     {
-        icon: "./legacy-icons/16.svg",
-        link: "https://www.terra.money/"
+        icon: "./legacy-icons/h3r3os.png",
+        link: "https://h3ro3s.org/"
     },
     {
-        icon: "./legacy-icons/cova.svg",
-        link: "https://www.covalenthq.com/"
+        icon: "./legacy-icons/altverse.png",
+        link: "https://www.altverse.ai/"
     },
     {   
-        icon: "./legacy-icons/binance.svg",
-        link: "https://www.binance.com/en-IN"
+        icon: "./legacy-icons/moonrabbit.png",
+        link: "https://moonrabbit.com/"
     },
     {
-        icon: "./legacy-icons/14.svg",
-        link: "https://ethereum.org/en/"
+        icon: "./legacy-icons/reptilechronicles.png",
+        link: "https://reptilechronicles.com/"
     }
 ] 
 

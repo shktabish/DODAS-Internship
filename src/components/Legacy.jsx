@@ -4,18 +4,18 @@ import { legacyLine2 } from "../constants/data"
 import { Link } from "react-router-dom"
 
 const Legacy = () => {
-  const icons = legacyLine1.map((icon, index) => (
-    <Link to={icon.link} key={index} >
-      <div className="max-lg:w-44 max-sm:w-28 max-md:mx-2 mx-3">
-        <img src={icon.icon} alt="icons" />
+  const icons = legacyLine1.map((link, index) => (
+    <Link key={index} to={link.link}>
+      <div className="bg-[#09090A] mx-4 px-6 py-4 rounded-xl">
+        <img src={link.icon} alt="icon" className="max-sm:h-8 h-16" />
       </div>
     </Link>
   ))
 
-  const icons2 = legacyLine2.map((icon, index) => (
-    <Link to={icon.link} key={index} >
-      <div className="max-lg:w-44 max-sm:w-28 max-md:mx-2 mx-3">
-        <img src={icon.icon} alt="icons" />
+  const icons2 = legacyLine2.map((link, index) => (
+    <Link key={index} to={link.link}>
+      <div className="bg-[#09090A] mx-4 px-6 py-4 rounded-xl">
+        <img src={link.icon} alt="icon" className="max-sm:h-8 h-16" />
       </div>
     </Link>
   ))

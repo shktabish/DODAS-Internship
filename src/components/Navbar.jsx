@@ -14,7 +14,12 @@ const Navbar = () => {
                 >
                     Get API Access
                 </div>
-                <div className="text-white cursor-pointer text-2xl font-semibold text-center">Dodas</div>
+                <div 
+                    onClick={() => setActiveLink("Dodas")} 
+                    className={`${activeLink === "Dodas" ? "text-white border-b-2 border-white" : "text-[#777777]"}  hover:text-white cursor-pointer text-2xl font-semibold text-center  `}
+                >
+                    Dodas
+                </div>
                 <Link  
                     to={"https://t.me/dodascommunity"}
                     onClick={() => setActiveLink("Join Community")} 

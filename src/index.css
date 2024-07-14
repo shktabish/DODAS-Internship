@@ -55,13 +55,8 @@ html {
   background: rgba(255, 255, 255, 0.3);
 }
 
-@media (max-width: 1024px) {
-  @keyframes marquee {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-200%); }
-  }
-  
-  .animate-marquee {
-    animation: marquee 20s linear infinite;
-  }
+@property --border-angle {
+  inherits: false;
+  initial-value: 0deg;
+  syntax: '<angle>';
 }

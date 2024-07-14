@@ -20,12 +20,12 @@ export default {
         'discover-card-pattern': "url('./discover.svg')"
       },
       animation: {
-        marquee: 'marquee 20s linear infinite',
+        border: 'border 4s ease infinite',
       },
       keyframes: {
-        marquee: {
-          '0%': { transform: 'translateX(0)' },
-          '100%': { transform: 'translateX(-100%)' },
+        border: {
+          '0%, 100%': { backgroundPosition: '0% 0%' },
+          '50%': { backgroundPosition: '100% 100%' },
         },
       },
     },

@@ -99,3 +99,38 @@ export const newLinks = [
         link: "https://cointelegraph.com/innovation-circle/10-obstacles-to-cross-chain-interoperability-and-how-they-can-be-overcome"
     }
 ]
+
+export const tech = [
+    {
+        icon: "./tech/3D.png",
+        title: "3D Modelling"
+    },
+    {
+        icon: "./tech/ai.png",
+        title: "Artificial Intelligence",
+    },
+    {
+        icon: "./tech/block.png",
+        title: "Blockchain",
+    },
+    {
+        icon: "./tech/IOT.png",
+        title: "Internet of Things",
+    },
+    {
+        icon: "./tech/AR.png",
+        title: "Augmented Reality (AR)",
+    },
+    {
+        icon: "./tech/vr.png",
+        title: "Virtual Reality (VR)",
+    },
+    {
+        icon: "./tech/edge.svg",
+        title: "Edge/Cloud Computing",
+    },
+    {
+        icon: "./tech/Brain.png",
+        title: "Brain Computer Interface",
+    }
+]

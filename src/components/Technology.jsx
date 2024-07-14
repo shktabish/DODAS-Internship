@@ -12,6 +12,7 @@ const Technology = () => {
     <div
       key={index}
       onClick={() => handleClick(index)}
+      onMouseEnter={() => setSelected(index)}
       className={`cursor-pointer max-sm:w-32 max-sm:h-32 w-44 h-44 mx-4 mb-16 p-[3px] rounded-xl flex flex-col gap-6 justify-center items-center 
       ${selected === index ? 'animate-border bg-gradient-to-r from-red-500 via-purple-500 to-blue-500 bg-[length:200%_200%] border border-transparent' : 'bg-[#1E1E1E] border-2 border-[#1E1E1E]'}`}
     >

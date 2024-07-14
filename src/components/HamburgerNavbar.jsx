@@ -1,10 +1,10 @@
 import {
     FiEdit,
     FiChevronDown,
-    FiTrash,
-    FiShare,
     FiPlusSquare,
   } from "react-icons/fi";
+  import { RxHamburgerMenu } from "react-icons/rx"
+  import { RxCross2 } from "react-icons/rx"
   import { motion } from "framer-motion";
   import { useState } from "react";
 import { Link } from "react-router-dom";
@@ -16,12 +16,11 @@ import { Link } from "react-router-dom";
     <motion.div animate={open ? "open" : "closed"} className="relative">
         <button
         onClick={() => setOpen((pv) => !pv)}
-        className="flex justify-end items-center gap-2 px-3 py-2 rounded-md font-Sofia text-xl bg-transparent ring-1 ring-white"
+        className="flex justify-end items-center gap-2 px-3 py-2 rounded-md font-Sofia text-xl bg-transparent"
         >
-        <span className="font-medium text-sm">Menu</span>
-        <motion.span variants={iconVariants}>
-            <FiChevronDown />
-        </motion.span>
+        {
+            open ? <RxCross2 className="text-3xl" /> : <RxHamburgerMenu className="text-3xl" />
+        }
         </button>
 
         <motion.ul
@@ -69,11 +68,6 @@ import { Link } from "react-router-dom";
         staggerChildren: 0.1,
       },
     },
-  };
-  
-  const iconVariants = {
-    open: { rotate: 180 },
-    closed: { rotate: 0 },
   };
   
   const itemVariants = {

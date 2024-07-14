@@ -97,6 +97,10 @@ export const newLinks = [
     {
         icon: "./marquee-icons/3.png",
         link: "https://cointelegraph.com/innovation-circle/10-obstacles-to-cross-chain-interoperability-and-how-they-can-be-overcome"
+    },
+    {
+        icon: "./marquee-icons/VOC.png",
+        link: "https://gumlet.assettype.com/voiceofcrypto/2024-03/d6ff8786-018b-457e-abdd-75ac9780e6fc/VOCQuintype_16_9.png"
     }
 ]
 

@@ -12,7 +12,7 @@ const Hero = () => {
                     Discovery of Digital Assets
                 </div>
                 <div className='max-sm:text-3xl max-lg:text-5xl max-xl:text-6xl text-8xl font-normal font-Michroma'>
-                    LAUNCHING <span className='block mt-5'>SOON</span>
+                    LAUNCH ON <span className='block mt-5'>TESTNET</span>
                 </div>
                 <div className="max-sm:w-[80%] max-lg:w-1/2 max-sm:text-lg max-lg:text-xl text-2xl font-Nico text-[#777] max-w-[780px]">
                     Resolvent: Where scarcity meets solution, empowering collectors with access to unique digital treasures.

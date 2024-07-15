@@ -8,7 +8,6 @@ const MarqueeCustom = ({ heading }) => {
 
   useEffect(() => {
     const iconsList = legacy.filter((item) => item.heading === heading)
-    setLoaded(false)
 
     const loadImages = iconsList.map((item) => {
       return new Promise((resolve, reject) => {
@@ -27,11 +26,10 @@ const MarqueeCustom = ({ heading }) => {
       .catch((err) => console.error("Failed to load images", err))
   }, [heading])
 
-  if(!icons.length) return null
   const noOfRepeats = Math.ceil(9 / icons.length)
 
   return (
-    <div className={`transition-opacity duration-500 ${loaded ? 'opacity-100' : 'opacity-0'}`}>
+    <div className={`transition-opacity duration-1000 ${loaded ? 'opacity-100' : 'opacity-0'}`}>
       <Marquee delay={5} gradient={false} pauseOnHover speed={40}>
         {Array(noOfRepeats).fill(0).flatMap((_, index) => 
           icons.map((item, idx) => (

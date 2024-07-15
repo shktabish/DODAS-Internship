@@ -10,20 +10,20 @@ const Navbar = () => {
             <div className="max-md:hidden flex justify-center items-center max-sm:gap-7 gap-14 px-2 pt-10 font-Michroma h-12">
                 <div 
                     onClick={() => setActiveLink("GET API ACCESS")} 
-                    className={`${activeLink === "GET API ACCESS" ? "text-white border-b-2 border-white" : "text-[#777777]"} transition duration-300 ease-in-out cursor-pointer max-sm:text-xs text-center px-4 py-2 hover:text-white`}
+                    className={`${activeLink === "GET API ACCESS" ? "text-white" : "text-[#777777]"} transition duration-300 ease-in-out cursor-pointer max-sm:text-xs text-center px-4 py-2 hover:text-white`}
                 >
                     Get API Access
                 </div>
                 <div 
                     onClick={() => setActiveLink("Dodas")} 
-                    className={`${activeLink === "Dodas" ? "text-white border-b-2 border-white" : "text-[#777777]"}  hover:text-white cursor-pointer text-2xl font-semibold text-center  `}
+                    className={`${activeLink === "Dodas" ? "text-white" : "text-[#777777]"}  hover:text-white cursor-pointer text-2xl font-semibold text-center  `}
                 >
                     Dodas
                 </div>
                 <Link  
                     to={"https://t.me/dodascommunity"}
                     onClick={() => setActiveLink("Join Community")} 
-                    className={`${activeLink === "Join Community" ? "text-white border-b-2 border-white" : "text-[#777777]"} transition duration-300 ease-in-out cursor-pointer max-sm:text-xs text-center px-4 py-2 hover:text-white`}
+                    className={`${activeLink === "Join Community" ? "text-white" : "text-[#777777]"} transition duration-300 ease-in-out cursor-pointer max-sm:text-xs text-center px-4 py-2 hover:text-white`}
                 >
                     Join Community
                 </Link >

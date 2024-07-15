@@ -31,59 +31,268 @@ export const sectionData = [
     }
 ]
 
-export const legacyLine1 = [
+export const legacy = [
     {
-        icon: "./legacy-icons/darenft.png",
-        link: "https://darenft.com/"
+        heading: "Infrastructure",
+        icon: "./legacy-icons/Infrastructure/polygon.jpg"
     },
     {
-        icon: "./legacy-icons/coinfantasy.png",
-        link: "https://www.coinfantasy.io/"
+        heading: "Infrastructure",
+        icon: "./legacy-icons/Infrastructure/Enjin.jpg"
     },
     {
-        icon: "./legacy-icons/farcana.png",
-        link: "https://www.farcana.com/"
+        heading: "Incubator",
+        icon: "./legacy-icons/Incubator/LightHouse.png"
     },
     {
-        icon: "./legacy-icons/rikkeifinance.png",
-        link: "https://rikkei.finance/"
+        heading: "Incubator",
+        icon: "./legacy-icons/Incubator/PlatinumFunds.png"
     },
     {
-        icon: "./legacy-icons/polycruz.png",
-        link: "https://www.polycruz.io/"
+        heading: "DeFi",
+        icon: "./legacy-icons/DeFi/KnitFinance.png"
     },
     {
-        icon: "./legacy-icons/nfttech.png",
-        link: "https://www.nfttech.com/"
+        heading: "DeFi",
+        icon: "./legacy-icons/DeFi/TrustFi.jpg"
+    },
+    {
+        heading: "DeFi",
+        icon: "./legacy-icons/DeFi/DeFi11.png"
+    },
+    {
+        heading: "DeFi",
+        icon: "./legacy-icons/DeFi/NordFinance.svg"
+    },
+    {
+        heading: "DeFi",
+        icon: "./legacy-icons/DeFi/EtnaNetwork.png"
+    },
+    {
+        heading: "DeFi",
+        icon: "./legacy-icons/DeFi/StripFinance.png"
+    },
+    {
+        heading: "DeFi",
+        icon: "./legacy-icons/DeFi/UpfiNetwork.png"
+    },
+    {
+        heading: "DeFi",
+        icon: "./legacy-icons/DeFi/CheesusDefi.png"
+    },
+    {
+        heading: "Exchange",
+        icon: "./legacy-icons/Exchange/OKX.png"
+    },
+    {
+        heading: "Exchange",
+        icon: "./legacy-icons/Exchange/MEXCGlobal.jpg"
+    },
+    {
+        heading: "Exchange",
+        icon: "./legacy-icons/Exchange/Pancakeswap.jpg"
+    },
+    {
+        heading: "Launchpads",
+        icon: "./legacy-icons/Launchpads/EnjinStarter.jpg"
+    },
+    {
+        heading: "Launchpads",
+        icon: "./legacy-icons/Launchpads/Anypad.jpg"
+    },
+    {
+        heading: "Launchpads",
+        icon: "./legacy-icons/Launchpads/Seedify.jpg"
+    },
+    {
+        heading: "Launchpads",
+        icon: "./legacy-icons/Launchpads/LaunchZone.jpg"
+    },
+    {
+        heading: "Launchpads",
+        icon: "./legacy-icons/Launchpads/NFTMall.png"
+    },
+    {
+        heading: "Launchpads",
+        icon: "./legacy-icons/Launchpads/Erax.jpg"
+    },
+    {
+        heading: "Launchpads",
+        icon: "./legacy-icons/Launchpads/SynapseNetwork.jpg"
+    },
+    {
+        heading: "Launchpads",
+        icon: "./legacy-icons/Launchpads/GenesisShards.svg"
+    },
+    {
+        heading: "Launchpads",
+        icon: "./legacy-icons/Launchpads/ProjectGalaxy.png"
+    },
+    {
+        heading: "Launchpads",
+        icon: "./legacy-icons/Launchpads/StartFi.jpg"
+    },
+    {
+        heading: "Launchpads",
+        icon: "./legacy-icons/Launchpads/Babylons.png"
+    },
+    {
+        heading: "Launchpads",
+        icon: "./legacy-icons/Launchpads/Blockpad.png"
+    },
+    {
+        heading: "Launchpads",
+        icon: "./legacy-icons/Launchpads/CronosWorld.png"
+    },
+    {
+        heading: "Launchpads",
+        icon: "./legacy-icons/Launchpads/HarmonyLauncher.jpg"
+    },
+    {
+        heading: "Launchpads",
+        icon: "./legacy-icons/Launchpads/Mobipad.png"
+    },
+    {
+        heading: "Wallet + Bridge + Tool",
+        icon: "./legacy-icons/WalletBridgeTool/Propel.png"
+    },
+    {
+        heading: "Wallet + Bridge + Tool",
+        icon: "./legacy-icons/WalletBridgeTool/ArcadeNetwork.png"
+    },
+    {
+        heading: "Wallet + Bridge + Tool",
+        icon: "./legacy-icons/WalletBridgeTool/Lovelace.jpg"
+    },
+    {
+        heading: "Wallet + Bridge + Tool",
+        icon: "./legacy-icons/WalletBridgeTool/ForwardProtocol.png"
+    },
+    {
+        heading: "Wallet + Bridge + Tool",
+        icon: "./legacy-icons/WalletBridgeTool/EMoney.png"
+    },
+    {
+        heading: "Wallet + Bridge + Tool",
+        icon: "./legacy-icons/WalletBridgeTool/KudoMoney.png"
+    },
+    {
+        heading: "NFT",
+        icon: "./legacy-icons/NFT/Fusible.png"
+    },
+    {
+        heading: "NFT",
+        icon: "./legacy-icons/NFT/DareNFT.png"
+    },
+    {
+        heading: "NFT",
+        icon: "./legacy-icons/NFT/Kaira.png"
+    },
+    {
+        heading: "NFT",
+        icon: "./legacy-icons/NFT/Bitscrunch.png"
+    },
+    {
+        heading: "NFT",
+        icon: "./legacy-icons/NFT/Uniarts.jpeg"
+    },
+    {
+        heading: "NFT",
+        icon: "./legacy-icons/NFT/Rev3al.png"
+    },
+    {
+        heading: "NFT",
+        icon: "./legacy-icons/NFT/PacificNFT.png"
+    },
+    {
+        heading: "NFT Marketplace",
+        icon: "./legacy-icons/NFTMarketplace/NFRaction.png"
+    },
+    {
+        heading: "NFT Marketplace",
+        icon: "./legacy-icons/NFTMarketplace/UpOnly.png"
+    },
+    {
+        heading: "NFT Marketplace",
+        icon: "./legacy-icons/NFTMarketplace/Spintop.png"
+    },
+    {
+        heading: "NFT Marketplace",
+        icon: "./legacy-icons/NFTMarketplace/NFTAlley.jpg"
+    },
+    {
+        heading: "NFT Marketplace",
+        icon: "./legacy-icons/NFTMarketplace/NFTBomb.png"
+    },
+    {
+        heading: "NFT Marketplace",
+        icon: "./legacy-icons/NFTMarketplace/Polkarare.png"
+    },
+    {
+        heading: "NFT Marketplace",
+        icon: "./legacy-icons/NFTMarketplace/UltiARENA.png"
+    },
+    {
+        heading: "NFT Marketplace",
+        icon: "./legacy-icons/NFTMarketplace/KAKANFT.png"
+    },
+    {
+        heading: "NFT Marketplace",
+        icon: "./legacy-icons/NFTMarketplace/Gamerse.png"
+    },
+    {
+        heading: "Guild",
+        icon: "./legacy-icons/Guild/MetaGamingGuild.png"
+    },
+    {
+        heading: "Guild",
+        icon: "./legacy-icons/Guild/BreachGG.png"
+    },
+    // {
+    //     heading: "Guild",
+    //     icon: "./legacy-icons/Guild/GEMS.png"
+    // },
+    {
+        "heading": "Gaming, Metaverse",
+        "icon": "./legacy-icons/GamingMetaverse/Altverse.png"
+    },
+    {
+        "heading": "Gaming, Metaverse",
+        "icon": "./legacy-icons/GamingMetaverse/AncientKingdom.png"
+    },
+    {
+        "heading": "Gaming, Metaverse",
+        "icon": "./legacy-icons/GamingMetaverse/Celestial.png"
+    },
+    {
+        "heading": "Gaming, Metaverse",
+        "icon": "./legacy-icons/GamingMetaverse/Cheersland.png"
+    },
+    {
+        "heading": "Gaming, Metaverse",
+        "icon": "./legacy-icons/GamingMetaverse/Chimeras.png"
+    },
+    {
+        "heading": "Gaming, Metaverse",
+        "icon": "./legacy-icons/GamingMetaverse/CoinFantasy.png"
+    },
+    {
+        "heading": "Gaming, Metaverse",
+        "icon": "./legacy-icons/GamingMetaverse/Cryptomeda.png"
+    },
+    {
+        "heading": "Gaming, Metaverse",
+        "icon": "./legacy-icons/GamingMetaverse/DogeAdventures.jpg"
+    },
+    {
+        "heading": "Gaming, Metaverse",
+        "icon": "./legacy-icons/GamingMetaverse/Dogeon.png"
+    },
+    {
+        "heading": "Gaming, Metaverse",
+        "icon": "./legacy-icons/GamingMetaverse/DuelistKing.jpg"
     }
 ]
-
-export const legacyLine2 = [
-    {
-        icon: "./legacy-icons/babylons.png",
-        link: "https://babylons.io/"
-    },
-    {
-        icon: "./legacy-icons/bitcrunch.png",
-        link: "https://bitscrunch.com/"
-    },
-    {
-        icon: "./legacy-icons/h3r3os.png",
-        link: "https://h3ro3s.org/"
-    },
-    {
-        icon: "./legacy-icons/altverse.png",
-        link: "https://www.altverse.ai/"
-    },
-    {   
-        icon: "./legacy-icons/moonrabbit.png",
-        link: "https://moonrabbit.com/"
-    },
-    {
-        icon: "./legacy-icons/reptilechronicles.png",
-        link: "https://reptilechronicles.com/"
-    }
-] 
 
 export const newLinks = [
     {
@@ -107,7 +316,7 @@ export const newLinks = [
 export const tech = [
     {
         icon: "./tech/3D.png",
-        title: "3D Modelling"
+        title: "RWA"
     },
     {
         icon: "./tech/ai.png",
@@ -119,22 +328,22 @@ export const tech = [
     },
     {
         icon: "./tech/IOT.png",
-        title: "Internet of Things",
+        title: "DePin",
     },
     {
         icon: "./tech/AR.png",
-        title: "Augmented Reality (AR)",
+        title: "AGI",
     },
     {
         icon: "./tech/vr.png",
-        title: "Virtual Reality (VR)",
+        title: "Metaverse",
     },
     {
         icon: "./tech/edge.svg",
-        title: "Edge/Cloud Computing",
+        title: "Web3 Gaming",
     },
     {
         icon: "./tech/Brain.png",
-        title: "Brain Computer Interface",
+        title: "Voice of Crypto",
     }
 ]

@@ -33,7 +33,7 @@ const Legacy = () => {
             </div>
           ))}
         </div>
-        <div className="flex items-center justify-center px-4 flex-wrap max-md:gap-10 gap-20 my-10">
+        <div className="flex items-center justify-center px-4 flex-wrap max-md:gap-10 gap-20 max-sm:mt-0 max-sm:mb-4 my-10">
           {texts.slice(5).map((text, index) => (
             <div 
               key={index} 

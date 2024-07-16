@@ -3,12 +3,12 @@ import { useState } from "react"
 import MarqueeCustom from "./MarqueeCustom"
 
 const Legacy = () => {
-  const [selected, setSelected] = useState("Infrastructure")
+  const [selected, setSelected] = useState("DeFi")
 
   const texts = [ 
+    "DeFi",
     "Infrastructure", 
     "Incubator", 
-    "DeFi", 
     "Launchpads", 
     "NFT", 
     "Guild", 
